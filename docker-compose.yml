@@ -1,0 +1,36 @@
+version: "3"
+
+services:
+  wordpress:
+    build: docker-wordpress
+    links:
+      - db:mysql
+    ports:
+      - 443:443
+    volumes:
+  # to copy out wordpress to ./wordpress for debugging:   - ./html:/var/www/html
+      - ./wpslacksync:/var/www/html/wp-content/plugins/wpslacksync
+      - ./php-development.ini:/usr/local/etc/php/conf.d/php-development.ini
+      - ./xdebug.ini:/usr/local/etc/php/conf.d/xdebug.ini
+      - ./development-logs:/var/log/apache2
+    environment:
+      WORDPRESS_DEBUG: "1"
+      WORDPRESS_DB_HOST: mysql
+      WORDPRESS_DB_NAME: wordpress
+      WORDPRESS_DB_USER: wordpress
+      WORDPRESS_DB_PASSWORD: wordpresspw
+
+  db:
+    image: mariadb
+    environment:
+      MYSQL_ROOT_PASSWORD: rootpw
+      MYSQL_DATABASE: wordpress
+      MYSQL_USER: wordpress
+      MYSQL_PASSWORD: wordpresspw
+
+  adminer:
+      image: "adminer"
+      links:
+      - db:mysql
+      ports:
+        - "8080:8080"

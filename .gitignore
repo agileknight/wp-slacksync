@@ -1,0 +1,9 @@
+.DS_Store
+wpslacksync-*.zip
+/development-logs
+/wordpress
+.idea
+*.iml
+/wpslacksync/assets/js-gen
+server.crt
+server.key

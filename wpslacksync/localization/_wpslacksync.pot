@@ -1,0 +1,578 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: WPSlackSync\n"
+"POT-Creation-Date: 2017-04-24 21:40+0200\n"
+"PO-Revision-Date: 2017-04-24 21:40+0200\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.1\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: wpslacksync.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: EDD_SL_Plugin_Updater.php:201
+#, php-format
+msgid ""
+"There is a new version of %1$s available. %2$sView version %3$s details%4$s."
+msgstr ""
+
+#: EDD_SL_Plugin_Updater.php:209
+#, php-format
+msgid ""
+"There is a new version of %1$s available. %2$sView version %3$s details%4$s "
+"or %5$supdate now%6$s."
+msgstr ""
+
+#: EDD_SL_Plugin_Updater.php:396
+msgid "You do not have permission to install plugin updates"
+msgstr ""
+
+#: EDD_SL_Plugin_Updater.php:396
+msgid "Error"
+msgstr ""
+
+#: includes/class-wpslacksync-options.php:8
+msgid "WPSlackSync Settings"
+msgstr ""
+
+#: includes/class-wpslacksync-options.php:26
+msgid "License"
+msgstr ""
+
+#: includes/class-wpslacksync-options.php:27
+msgid "General"
+msgstr ""
+
+#: includes/class-wpslacksync-options.php:28
+msgid "Team Details"
+msgstr ""
+
+#: includes/class-wpslacksync-options.php:29
+msgid "Display"
+msgstr ""
+
+#: includes/class-wpslacksync-options.php:30
+msgid "Styling"
+msgstr ""
+
+#: includes/class-wpslacksync-shortcode.php:73
+msgid "joined"
+msgstr ""
+
+#: includes/class-wpslacksync-shortcode.php:74
+msgid "uploaded"
+msgstr ""
+
+#: includes/class-wpslacksync-shortcode.php:75
+msgid "commented on"
+msgstr ""
+
+#: includes/class-wpslacksync-shortcode.php:76
+msgid "shared"
+msgstr ""
+
+#: includes/class-wpslacksync-shortcode.php:77
+msgid "and commented"
+msgstr ""
+
+#: includes/class-wpslacksync-shortcode.php:78
+msgid "Please wait while your profile photo is updating..."
+msgstr ""
+
+#: includes/class-wpslacksync-shortcode.php:79
+msgid "Crop your photo"
+msgstr ""
+
+#: includes/class-wpslacksync-shortcode.php:80
+msgid "Submit"
+msgstr ""
+
+#: includes/class-wpslacksync-shortcode.php:81
+msgid "Cancel"
+msgstr ""
+
+#: includes/class-wpslacksync-shortcode.php:84
+msgid "Invitation Sent. Check inbox."
+msgstr ""
+
+#: includes/class-wpslacksync-shortcode.php:85
+msgid "Already invited. Check inbox."
+msgstr ""
+
+#: includes/class-wpslacksync-shortcode.php:86
+msgid "Already in team. Please Sign In."
+msgstr ""
+
+#: includes/class-wpslacksync-shortcode.php:87
+msgid "Invalid Token. Let know site admin."
+msgstr ""
+
+#: includes/class-wpslacksync-shortcode.php:88
+msgid "Invalid email."
+msgstr ""
+
+#: includes/class-wpslacksync-shortcode.php:89
+msgid "Type your Name &amp; Email"
+msgstr ""
+
+#: includes/class-wpslacksync-shortcode.php:273
+msgid "First Name"
+msgstr ""
+
+#: includes/class-wpslacksync-shortcode.php:274
+msgid "Last Name"
+msgstr ""
+
+#: includes/class-wpslacksync-shortcode.php:278
+msgid "Email Address"
+msgstr ""
+
+#: includes/class-wpslacksync-shortcode.php:281
+msgid "Get invited to team"
+msgstr ""
+
+#: includes/class-wpslacksync-shortcode.php:288
+msgid "Already a member?"
+msgstr ""
+
+#: includes/class-wpslacksync-shortcode.php:289
+msgid "Sign in with"
+msgstr ""
+
+#: includes/class-wpslacksync-shortcode.php:299
+#: includes/class-wpslacksync-shortcode.php:332
+msgid "Loading..."
+msgstr ""
+
+#: includes/class-wpslacksync-shortcode.php:310
+msgid "About"
+msgstr ""
+
+#: includes/class-wpslacksync-shortcode.php:314
+msgid "Set Photo"
+msgstr ""
+
+#: includes/class-wpslacksync-shortcode.php:320
+msgid "Log Out"
+msgstr ""
+
+#: includes/class-wpslacksync-shortcode.php:335
+msgid "Join this chat"
+msgstr ""
+
+#: includes/class-wpslacksync.php:136 includes/class-wpslacksync.php:164
+#: includes/class-wpslacksync.php:212
+msgid "An error occurred, please try again."
+msgstr ""
+
+#: includes/class-wpslacksync.php:143
+#, php-format
+msgid "Your license key expired on %s."
+msgstr ""
+
+#: includes/class-wpslacksync.php:148
+msgid "Your license key has been disabled."
+msgstr ""
+
+#: includes/class-wpslacksync.php:151
+msgid "Invalid license."
+msgstr ""
+
+#: includes/class-wpslacksync.php:155
+msgid "Your license is not active for this URL."
+msgstr ""
+
+#: includes/class-wpslacksync.php:158
+#, php-format
+msgid "This appears to be an invalid license key for %s."
+msgstr ""
+
+#: includes/class-wpslacksync.php:161
+msgid "Your license key has reached its activation limit."
+msgstr ""
+
+#: templates/template-options-display.php:4
+msgid "Team name"
+msgstr ""
+
+#: templates/template-options-display.php:8
+msgid "The team name is shown above the invite form."
+msgstr ""
+
+#: templates/template-options-display.php:13
+msgid "Enter name for invite"
+msgstr ""
+
+#: templates/template-options-display.php:16
+msgid ""
+"The invite form will include input fields for first and last name in "
+"addition to the required email field."
+msgstr ""
+
+#: templates/template-options-display.php:17
+msgid "Include first and last name in invite form."
+msgstr ""
+
+#: templates/template-options-display.php:22
+msgid "View Only mode"
+msgstr ""
+
+#: templates/template-options-display.php:26
+msgid "Guests can view channels and messages before joining."
+msgstr ""
+
+#: templates/template-options-display.php:31
+msgid "Mode"
+msgstr ""
+
+#: templates/template-options-display.php:34
+msgid "Invite Mode"
+msgstr ""
+
+#: templates/template-options-display.php:34
+msgid ""
+"The login to slack button will be hidden and the plugin chat will not be "
+"used."
+msgstr ""
+
+#: templates/template-options-display.php:35
+msgid "Guests only can get invited to your team."
+msgstr ""
+
+#: templates/template-options-display.php:37
+msgid "Intern Mode"
+msgstr ""
+
+#: templates/template-options-display.php:37
+msgid ""
+"Will hide the invite form. Only the login to slack button will be shown. "
+"Chat is enabled."
+msgstr ""
+
+#: templates/template-options-display.php:38
+msgid "Only the people already on team will have access."
+msgstr ""
+
+#: templates/template-options-display.php:40
+msgid "Full Mode"
+msgstr ""
+
+#: templates/template-options-display.php:40
+msgid ""
+"Both the invite form and the login to slack button will be shown. Chat is "
+"enabled."
+msgstr ""
+
+#: templates/template-options-display.php:41
+msgid "Both new and current users on aboard."
+msgstr ""
+
+#: templates/template-options-display.php:43
+msgid "Passive Mode"
+msgstr ""
+
+#: templates/template-options-display.php:43
+msgid ""
+"To be used with view-only mode. No join this chat button is shown. Only "
+"reading is possible"
+msgstr ""
+
+#: templates/template-options-display.php:44
+msgid "Disable both login and invite."
+msgstr ""
+
+#: templates/template-options-display.php:50
+msgid "Enable private channels"
+msgstr ""
+
+#: templates/template-options-display.php:53
+msgid "All private channels a user belongs to will be available."
+msgstr ""
+
+#: templates/template-options-display.php:54
+msgid "Users see and can chat in private channels they belong to."
+msgstr ""
+
+#: templates/template-options-display.php:59
+msgid "Enable upload profile photo"
+msgstr ""
+
+#: templates/template-options-display.php:62
+msgid ""
+"Click on user picture below channel list to find the menu. Set photo will "
+"only appear with this option activated and when the browser size is large "
+"enough. This is to prevent usability issues for mobile users."
+msgstr ""
+
+#: templates/template-options-display.php:63
+msgid "Users can update their profile picture."
+msgstr ""
+
+#: templates/template-options-display.php:68
+msgid "View message time"
+msgstr ""
+
+#: templates/template-options-display.php:71
+msgid "Posted messages in the chat will show the time when they were posted."
+msgstr ""
+
+#: templates/template-options-general.php:4
+msgid "App Client ID"
+msgstr ""
+
+#: templates/template-options-general.php:8
+msgid "Create application here:"
+msgstr ""
+
+#: templates/template-options-general.php:8
+msgid "Slack New Application"
+msgstr ""
+
+#: templates/template-options-general.php:13
+msgid "App Client Secret"
+msgstr ""
+
+#: templates/template-options-general.php:17
+msgid "Issued when you create an application"
+msgstr ""
+
+#: templates/template-options-general.php:22
+msgid "Team Test Token"
+msgstr ""
+
+#: templates/template-options-general.php:26
+msgid ""
+"The team test token is used to invite users on behalf of the channel owner."
+msgstr ""
+
+#: templates/template-options-general.php:27
+msgid "Generate a token here:"
+msgstr ""
+
+#: templates/template-options-general.php:27
+msgid "Token generator"
+msgstr ""
+
+#: templates/template-options-license.php:8
+msgid "License Key"
+msgstr ""
+
+#: templates/template-options-license.php:12
+msgid ""
+"Needs to be valid and activated for automatic updates to show. Expires a "
+"year after purchase if not renewed."
+msgstr ""
+
+#: templates/template-options-license.php:13
+msgid "Enter from purchase receipt"
+msgstr ""
+
+#: templates/template-options-license.php:19
+#: templates/template-options-license.php:27
+msgid "Activate License"
+msgstr ""
+
+#: templates/template-options-license.php:24
+msgid "Deactivate License"
+msgstr ""
+
+#: templates/template-options-license.php:25
+msgid "License active"
+msgstr ""
+
+#: templates/template-options-styling.php:4
+msgid "Container"
+msgstr ""
+
+#: templates/template-options-styling.php:9
+msgid "Border Color"
+msgstr ""
+
+#: templates/template-options-styling.php:17
+msgid "Border Radius"
+msgstr ""
+
+#: templates/template-options-styling.php:25
+msgid "Chat Width"
+msgstr ""
+
+#: templates/template-options-styling.php:29
+#: templates/template-options-styling.php:38
+msgid "Enter either in px or %. Examples: 800px or 100%"
+msgstr ""
+
+#: templates/template-options-styling.php:34
+msgid "Chat Height"
+msgstr ""
+
+#: templates/template-options-styling.php:43
+msgid "Left Sidebar Width"
+msgstr ""
+
+#: templates/template-options-styling.php:47
+msgid "Enter in px. Example: 125px."
+msgstr ""
+
+#: templates/template-options-styling.php:52
+msgid "Invite Form"
+msgstr ""
+
+#: templates/template-options-styling.php:57
+msgid "Title Color"
+msgstr ""
+
+#: templates/template-options-styling.php:65
+msgid "Input Border Color"
+msgstr ""
+
+#: templates/template-options-styling.php:73
+msgid "Button Color"
+msgstr ""
+
+#: templates/template-options-styling.php:80
+msgid "Button Background Color"
+msgstr ""
+
+#: templates/template-options-styling.php:88
+msgid "Button Border Color"
+msgstr ""
+
+#: templates/template-options-styling.php:96
+msgid "Left Sidebar"
+msgstr ""
+
+#: templates/template-options-styling.php:101
+msgid "Background Color"
+msgstr ""
+
+#: templates/template-options-styling.php:109
+msgid "Channel Name Color"
+msgstr ""
+
+#: templates/template-options-styling.php:117
+msgid "Hover/Active Channel Name Color"
+msgstr ""
+
+#: templates/template-options-styling.php:125
+msgid "Channel Background Color"
+msgstr ""
+
+#: templates/template-options-styling.php:133
+msgid "Hover/Active Channel Background Color"
+msgstr ""
+
+#: templates/template-options-styling.php:141
+msgid "Channel Bottom Border Color"
+msgstr ""
+
+#: templates/template-options-styling.php:149
+msgid "Mobile Left Sidebar Collapse Color"
+msgstr ""
+
+#: templates/template-options-styling.php:157
+msgid "Mobile Left Sidebar Collapse Background"
+msgstr ""
+
+#: templates/template-options-styling.php:165
+msgid "Slack Panel"
+msgstr ""
+
+#: templates/template-options-styling.php:170
+msgid "Channel Title Color"
+msgstr ""
+
+#: templates/template-options-styling.php:178
+msgid "Channel Title Background Color"
+msgstr ""
+
+#: templates/template-options-styling.php:186
+msgid "Username Color"
+msgstr ""
+
+#: templates/template-options-styling.php:194
+msgid "Message Color"
+msgstr ""
+
+#: templates/template-options-styling.php:202
+msgid "BOT Message Color"
+msgstr ""
+
+#: templates/template-options-styling.php:210
+msgid "External stylesheet"
+msgstr ""
+
+#: templates/template-options-styling.php:214
+msgid ""
+"When activated, the above options will be ignored and no css will be "
+"generated/included for them."
+msgstr ""
+
+#: templates/template-options-styling.php:215
+msgid "Use custom stylesheet."
+msgstr ""
+
+#: templates/template-options-team-details.php:4
+msgid "Team details"
+msgstr ""
+
+#: templates/template-options-team-details.php:7
+msgid "Auto Fill"
+msgstr ""
+
+#: templates/template-options-team-details.php:8
+msgid ""
+"Please click on Auto Fill. This verifies the entered team test token is "
+"correct and should automatically fill the team name and team id of the "
+"target slack team."
+msgstr ""
+
+#: templates/template-options-team-details.php:9
+msgid "Type token first."
+msgstr ""
+
+#: templates/template-options-team-details.php:10
+msgid "Invalid token."
+msgstr ""
+
+#: templates/template-options-team-details.php:15
+msgid "Domain"
+msgstr ""
+
+#: templates/template-options-team-details.php:23
+msgid "ID"
+msgstr ""
+
+#: wp-sellwire-plugin.php:101
+msgid ""
+"An Unexpected HTTP Error occurred during the API request.</p> <p><a href=\"?"
+"\" onclick=\"document.location.reload(); return false;\">Try again</a>"
+msgstr ""
+
+#: wp-sellwire-plugin.php:105
+msgid "An unknown error occurred"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "WPSlackSync"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "https://github.com/agileknight/wpslacksync"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "WordPress Slack Integration."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Philipp Meier"
+msgstr ""

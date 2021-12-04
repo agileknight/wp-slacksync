@@ -1,0 +1,545 @@
+<section>
+	<h3>[1.11.0] - 2021-12-04</h3>
+	<ul>
+		<li>Cleanup code for publishing as an open-source project</li>
+		<li>Remove EDD licensing and update code</li>
+	</ul>
+</section>
+
+<section>
+	<h3>[1.10.3] - 2021-06-03</h3>
+	<ul>
+		<li>Fix Slack API access invalid_auth errors</li>
+	</ul>
+</section>
+
+<section>
+	<h3>[1.10.2] - 2021-02-28</h3>
+	<ul>
+		<li>Remove inline image display of slack uploads</li>
+		<li>Fix setting profile photo again in the same session</li>
+	</ul>
+</section>
+
+<section>
+	<h3>[1.10.1] - 2020-12-11</h3>
+	<ul>
+		<li>Add additional back to channel link from threads</li>
+	</ul>
+</section>
+
+<section>
+	<h3>[1.10.0] - 2020-11-23</h3>
+	<ul>
+		<li>Implement Slack message threads</li>
+	</ul>
+</section>
+
+<section>
+	<h3>[1.9.2] - 2020-11-10</h3>
+	<ul>
+		<li>Exclude archived channels when querying the Slack API</li>
+		<li>Add more css classes to shared message rendering</li>
+	</ul>
+</section>
+
+<section>
+	<h3>[1.9.1] - 2020-10-17</h3>
+	<ul>
+		<li>Fix rendering of email addresses in messages</li>
+		<li>Add basic display of shared messages</li>
+	</ul>
+</section>
+
+<section>
+	<h3>[1.9.0] - 2020-09-11</h3>
+	<ul>
+		<li>Use oauth flow for admin API token instead of deprecated legacy test token</li>
+		<li>Script in shortcode waits for loaded scripts</li>
+		<li>Fix php notice</li>
+		<li>Fix jquery migrate deprecation warning</li>
+	</ul>
+</section>
+
+<section>
+	<h3>[1.8.10] - 2020-07-17</h3>
+	<ul>
+		<li>Use new Slack conversations API</li>
+	</ul>
+</section>
+
+<section>
+	<h3>[1.8.9] - 2019-03-09</h3>
+	<ul>
+		<li>Fix emoji display</li>
+		<li>Parse emoticons when sending message</li>
+		<li>Remove deprecated sellwire plugin update handling</li>
+	</ul>
+</section>
+
+<section>
+	<h3>[1.8.8] - 2018-11-25</h3>
+	<ul>
+		<li>Fix image attachment display after Slack API change</li>
+	</ul>
+</section>
+
+<section>
+	<h3>[1.8.7] - 2018-08-31</h3>
+	<ul>
+		<li>Add collapse_sidebar shortcode parameter</li>
+	</ul>
+</section>
+
+<section>
+	<h3>[1.8.6] - 2018-08-28</h3>
+	<ul>
+		<li>Security: Fix leaked token</li>
+	</ul>
+</section>
+
+<section>
+	<h3>[1.8.5] - 2018-05-31</h3>
+	<ul>
+		<li>Improve invitation consent error message and highlighting</li>
+	</ul>
+</section>
+
+<section>
+	<h3>[1.8.4] - 2018-05-15</h3>
+	<ul>
+		<li>Improve invite form header font size on mobile</li>
+	</ul>
+</section>
+
+<section>
+	<h3>[1.8.3] - 2018-05-15</h3>
+	<ul>
+		<li>View-only mode no longer loads private channels to improve privacy</li>
+		<li>Add custom GDPR consent HTML option with checkbox validation for invite form</li>
+		<li>Improve handling of hidden thread update messages</li>
+	</ul>
+</section>
+
+<section>
+	<h3>[1.8.2] - 2018-03-11</h3>
+	<ul>
+		<li>Fix jquery accessed as dollar sign synax error</li>
+	</ul>
+</section>
+
+<section>
+	<h3>[1.8.1] - 2018-03-11</h3>
+	<ul>
+		<li>Fix errors from token with missing rtm api scope by logging out</li>
+	</ul>
+</section>
+
+<section>
+	<h3>[1.8.0] - 2018-03-11</h3>
+	<ul>
+		<li>Use rtm api to receive new messages instead of web api</li>
+		<li>Cache server-side channel history requests in view-only mode</li>
+		<li>Fix sorting of new messages when changing active channel</li>
+	</ul>
+</section>
+
+<section>
+	<h3>[1.7.2] - 2017-12-31</h3>
+	<ul>
+		<li>Fix refresh spamming log with errors when no channel is active</li>
+	</ul>
+</section>
+
+<section>
+	<h3>[1.7.1] - 2017-12-13</h3>
+	<ul>
+		<li>Fix page scroll position being lost when clicking join this chat button</li>
+	</ul>
+</section>
+
+<section>
+	<h3>[1.7.0] - 2017-11-18</h3>
+	<ul>
+		<li>Use display name instead of deprecated username</li>
+		<li>Fix private channel displaying messages multiple times</li>
+		<li>Fix channel switch not working when no new messages are loaded</li>
+		<li>Fix channel message list loading errors breaking chat</li>
+		<li>Prevent simultaneous loading requests per channel</li>
+		<li>Focus message input again after sending message</li>
+	</ul>
+</section>
+
+<section>
+	<h3>[1.6.4] - 2017-10-22</h3>
+	<ul>
+		<li>Fix scrolling for resized message area</li>
+		<li>Improve message loading, only load new messages</li>
+		<li>Make no_file_upload option more robust</li>
+	</ul>
+</section>
+
+<section>
+	<h3>[1.6.3] - 2017-05-11</h3>
+	<ul>
+		<li>Fix method return value in write context php error</li>
+	</ul>
+</section>
+
+<section>
+	<h3>[1.6.2] - 2017-04-27</h3>
+	<ul>
+		<li>Chat session storage in Safari private browsing mode persists across sub-pages</li>
+	</ul>
+</section>
+
+<section>
+	<h3>[1.6.1] - 2017-04-26</h3>
+	<ul>
+		<li>Fix chat session storage in Safari private browsing mode</li>
+	</ul>
+</section>
+
+<section>
+	<h3>[1.5.10] - 2017-04-24</h3>
+	<ul>
+		<li>Support EDD licensing and plugin updating</li>
+	</ul>
+</section>
+
+<section>
+	<h3>[1.5.9] - 2017-04-08</h3>
+	<ul>
+		<li>Add hide_sidebar shortcode parameter</li>
+	</ul>
+</section>
+
+<section>
+	<h3>[1.5.8] - 2017-04-01</h3>
+	<ul>
+		<li>Fix resizing when toggling screen orientation</li>
+		<li>Fix toggling collapse on resize to large width</li>
+	</ul>
+</section>
+
+<section>
+	<h3>[1.5.7] - 2017-02-06</h3>
+	<ul>
+		<li>Use site protocol to load font-awesome (not force http)</li>
+	</ul>
+</section>
+
+<section>
+	<h3>[1.5.6] - 2017-02-04</h3>
+	<ul>
+		<li>Fix broken styling options for invite form and mobile collapse button</li>
+	</ul>
+</section>
+
+<section>
+	<h3>[1.5.5] - 2017-01-27</h3>
+	<ul>
+		<li>Allow overwrite of view-only and mode through shortcode parameters</li>
+	</ul>
+</section>
+
+<section>
+	<h3>[1.5.4] - 2017-01-09</h3>
+	<ul>
+		<li>Fix PHP code reference to non-existent variable</li>
+	</ul>
+</section>
+
+<section>
+	<h3>[1.5.3] - 2016-12-22</h3>
+	<ul>
+		<li>Add option to use only email for invite form</li>
+	</ul>
+</section>
+
+<section>
+	<h3>[1.5.2] - 2016-12-06</h3>
+	<ul>
+		<li>Fix invite form selectors selecting unrelated form elements</li>
+		<li>Fix user profile popup styling for file upload messages</li>
+	</ul>
+</section>
+
+<section>
+	<h3>[1.5.1] - 2016-12-05</h3>
+	<ul>
+		<li>Add left sidebar width styling option</li>
+		<li>Fix styling not applied for container border color and border radius</li>
+		<li>Fix styling not applied for left sidebar background color and channel bottom border color</li>
+		<li>Fix display gap in active channel header background</li>
+	</ul>
+</section>
+
+<section>
+	<h3>[1.5.0] - 2016-11-18</h3>
+	<ul>
+		<li>Add profile upload functionality on desktop</li>
+		<li>Remove body white text color styling that was accidentally included</li>
+	</ul>
+</section>
+
+<section>
+	<h3>[1.4.8] - 2016-11-12</h3>
+	<ul>
+		<li>Add user profile popup</li>
+		<li>Fix showing end of day line after first message of day</li>
+		<li>Add allowed_private_channels shortcode parameter</li>
+		<li>Support more emojis</li>
+		<li>Remove iOS/Android emoji style switch</li>
+		<li>Improve input text color styling</li>
+		<li>Fix php notice about undefined constant</li>
+	</ul>
+</section>
+
+<section>
+	<h3>[1.4.7] - 2016-11-03</h3>
+	<ul>
+		<li>Fix php error with older verions of php</li>
+	</ul>
+</section>
+
+<section>
+	<h3>[1.4.6] - 2016-11-01</h3>
+	<ul>
+		<li>Only include scripts/css when on page with shortcode</li>
+		<li>Add passive mode for view-only without invite/login</li>
+		<li>Only display horizontal line between messages at end of day</li>
+		<li>Add option to use custom stylesheet</li>
+		<li>Show real name when hovering username</li>
+	</ul>
+</section>
+
+<section>
+	<h3>[1.4.5] - 2016-10-25</h3>
+	<ul>
+		<li>Add basic handling of bot message attachments using text-only fallback</li>
+	</ul>
+</section>
+
+<section>
+	<h3>[1.4.4] - 2016-10-22</h3>
+	<ul>
+		<li>Fix default chat width and height</li>
+	</ul>
+</section>
+
+<section>
+	<h3>[1.4.3] - 2016-10-08</h3>
+	<ul>
+		<li>Add options to set chat width and height</li>
+		<li>Add POT translation template (e.g. for Loco Translate)</li>
+		<li>Add about link to user profile menu</li>
+		<li>Add additional help info in plugin settings</li>
+		<li>Fix image loading messing up scroll position</li>
+		<li>Fix broken emoji style option</li>
+	</ul>
+</section>
+
+<section>
+	<h3>[1.4.2] - 2016-09-10</h3>
+	<ul>
+		<li>Fix images not showing in Internet Explorer</li>
+		<li>Add color pickers for color settings</li>
+		<li>Add new user menu with logout link</li>
+		<li>Fix saving in settings to lose the active tab</li>
+	</ul>
+</section>
+
+<section>
+	<h3>[1.4.1] - 2016-08-15</h3>
+	<ul>
+		<li>Enable license check for automatic plugin updates</li>
+		<li>Use different plugin updates provider</li>
+	</ul>
+</section>
+
+<section>
+	<h3>[1.4.0] - 2016-07-30</h3>
+	<ul>
+		<li>Add option to enable private Slack channels</li>
+		<li>Users can see and chat in the private Slack chanenls they belong to</li>
+		<li>Fix feed not scrolling when new messages arrive from other users</li>
+	</ul>
+</section>
+
+<section>
+	<h3>[1.3.4] - 2016-06-15</h3>
+	<ul>
+		<li>Add wpslacksync_debug get parameter support for detailed request logging in javascript console</li>
+	</ul>
+</section>
+
+<section>
+	<h3>[1.3.3] - 2016-06-04</h3>
+	<ul>
+		<li>Fix hidden file upload button still being clickable in upper part of text input area</li>
+	</ul>
+</section>
+
+<section>
+	<h3>[1.3.2] - 2016-05-20</h3>
+	<ul>
+		<li>Add no_file_upload shortcode parameter that hides file upload button</li>
+		<li>Fix images not showing after page refresh in view-only mode</li>
+		<li>Fix accepting authorization for wrong Slack team domain</li>
+	</ul>
+</section>
+
+<section>
+	<h3>[1.3.1] - 2016-05-02</h3>
+	<ul>
+		<li>No longer show inaccessible images in view-only mode</li>
+	</ul>
+</section>
+
+<section>
+	<h3>[1.3.0] - 2016-05-01</h3>
+	<ul>
+		<li>Add file upload support</li>
+		<li>Properly display uploaded files, snippets, posts, and their comments</li>
+		<li>Improve multi-line chat layout</li>
+		<li>Javascript errors during message processing now log to console instead of breaking chat</li>
+	</ul>
+</section>
+
+<section>
+	<h3>[1.2.4] - 2016-04-26</h3>
+	<ul>
+		<li>Use Slack object tokens (instead of deprecated oauth scope: client)</li>
+		<li>Fix mixed content javascript error when using https</li>
+	</ul>
+</section>
+
+<section>
+	<h3>[1.2.3] - 2016-04-20</h3>
+	<ul>
+		<li>Fix img property undefined javascript error when user not known</li>
+	</ul>
+</section>
+
+<section>
+	<h3>[1.2.2] - 2016-04-18</h3>
+	<ul>
+		<li>Allow comma-separation for allowed_channels shortcode parameter</li>
+		<li>Improve security by moving slack oauth authorization api call to server</li>
+		<li>Fix unknown user name breaking the chat through a javascript error</li>
+		<li>Fix scrollHeight javascript error log spam when on invite screen in read-only mode</li>
+	</ul>
+</section>
+
+<section>
+	<h3>[1.2.1] - 2016-04-13</h3>
+	<ul>
+		<li>Fix js/css caching issues by adding correct plugin version to resource URLs</li>
+	</ul>
+</section>
+
+<section>
+	<h3>[1.2.0] - 2016-04-12</h3>
+	<ul>
+		<li>Re-activate optional view-only mode</li>
+	</ul>
+</section>
+
+<section>
+	<h3>[1.1.5] - 2016-04-04</h3>
+	<ul>
+		<li>Fixed plugin deactivating on auto-update (used random plugin name)</li>
+	</ul>
+</section>
+
+<section>
+	<h3>[1.1.4] - 2016-03-29</h3>
+	<ul>
+		<li>Fixed broken Netherlands translation</li>
+		<li>Pre-load javascript templates</li>
+		<li>Removed option for incoming webhook that is no longer needed</li>
+	</ul>
+</section>
+
+<section>
+	<h3>[1.1.3] - 2016-03-18</h3>
+	<ul>
+		<li>Fixed token genrator broken link</li>
+		<li>Use different plugin updates provider</li>
+	</ul>
+</section>
+
+<section>
+	<h3>[1.1.2] - 2016-03-18</h3>
+	<ul>
+		<li>Fixed app not working in Safari private mode</li>
+	</ul>
+</section>
+
+<section>
+	<h3>[1.1.1] - 2016-03-17</h3>
+	<ul>
+		<li>Bugfixes and improve slack api call error output</li>
+	</ul>
+</section>
+
+<section>
+	<h3>[1.1.0] - 2016-03-17</h3>
+	<ul>
+		<li>Added allowed_channels shortcode parameter to limit the available slack channels</li>
+		<li>Added default_channel shortcode parameter to set the initially selected channel</li>
+		<li>Fixed users having to re-authorize on each loading of page</li>
+		<li>Clean up browser URL after authorization</li>
+	</ul>
+</section>
+
+<section>
+	<h3>[1.0.2] - 2016-02-23</h3>
+	<ul>
+		<li>Bugfixes and change of author</li>
+	</ul>
+</section>
+
+<section>
+	<h3>[1.0.1] - 2016-01-16</h3>
+	<ul>
+		<li>Added styling options for invite form</li>
+		<li>Get rid of the joined notification</li>
+		<li>Few bugfixes</li>
+	</ul>
+</section>
+
+<section>
+	<h3>[1.0] - 2015-10-17</h3>
+	<ul>
+		<li>Added responsive output</li>
+		<li>Added more color styling options for frontend view</li>
+		<li>Added timestamps on messages when hover on time</li>
+		<li>Added user profile picture and name in sidebar</li>
+		<li>Added users profile pictures with chat message</li>
+		<li>Added option to hide the login function on frontend</li>
+		<li>Added option to hide the invite function on frontend</li>
+		<li>Added line breaks so paragraphs show for larger messages</li>
+		<li>Fixed issue with usernames not shown properly in output</li>
+		<li>Fixed auto-fill bug on backend</li>
+		<li>Fixed jquery tabs on backend</li>
+		<li>More little bug fixes and improvements</li>
+	</ul>
+</section>
+
+<section>
+	<h3>[0.0.2] - 2015-07-08</h3>
+	<ul>
+		<li>Added automatic update function</li>
+		<li>Added styling function for frontend view</li>
+		<li>Added Dutch translation</li>
+	</ul>
+</section>
+
+<section>
+	<h3>[0.0.1] - 2015-06-30</h3>
+	<ul>
+		<li>Initial Release</li>
+	</ul>
+</section>
